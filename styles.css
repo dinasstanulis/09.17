@@ -1,1 +1,10 @@
-sukddddd
+body {
+    background-color: black;
+    margin: 20rem;
+}
+header {
+    display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+}
