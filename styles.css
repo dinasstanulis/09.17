@@ -1,10 +1,90 @@
-body {
+html {
     background-color: black;
-    margin: 20rem;
 }
-header {
-    display: flex;
+
+body {
+    margin: 10vh;
+    background-color: #252b42;
+
+}
+header.main,header.title,header.subtitle {
+display: flex;
 flex-flow: column wrap;
 justify-content: center;
 align-items: center;
+margin: 0rem;
+}
+
+header.title {
+    font-size: 150%;
+    color: #fff; 
+
+}
+header.subtitle {
+    font-size: 100%;
+    color: #fff;
+}
+h1,h3 {
+    margin: 2vh auto 0vh auto;
+}
+nav.main {
+display:flex;
+justify-content: center;
+gap: 0.5rem;
+}
+nav.item1 {
+   background-color: #23a6f0; 
+   padding:1rem 1.5rem;
+   color: #fff;
+   border-radius: 0.5rem;
+}
+nav.item2 {
+    color: #23a6f0;
+    border: 0.1rem solid;
+    padding:1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+main.main {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 5rem
+}
+main.training1,.training2 {
+    background-color: #fff;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding: 1rem;
+margin: 1rem;
+}
+main.training3 {
+    background-color:#23a6f0;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+padding: 1rem;
+margin: 1rem;
+color: #fff;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+img {
+    width: 10%;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+img.a {
+    background-color:#ffdcd1 ;
+}
+img.b {
+    background-color: #b9eaa7;
+}
+img.c {
+    background-color: #fff;
 }
